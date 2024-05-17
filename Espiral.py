@@ -2,9 +2,7 @@ x = 1
 num = 1
 entradas = "entradas.txt"
 
-def leituraArquivo(entradas):
-    # Declara 'x' e 'num' como global 
-    #global x, num  
+def leituraArquivo(entradas): 
     # Abre o arquivo em modo leitura
     with open(entradas, 'r') as entradas:
         for linha in entradas:
